@@ -1,5 +1,7 @@
-# Ignore data folder and heavy pptx files
+# Ignore data folder except our example datasets and heavy pptx files
 data/*
+!data/student_pass_fail.csv
+!data/student_exam_scores.csv
 slides/*.pptx
 
 # Byte-compiled / optimized / DLL files
